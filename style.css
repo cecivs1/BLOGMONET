@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+    background-color: #fef8ff;
+}
+
+#monet{
+    font-size: 70px;
+    background-color: rgb(30, 144, 255,0.7);
+    color: aliceblue;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 700px;
+}
+
+#welcome {
+    position: absolute;
+    top: 1px;
+    bottom: 0;
+    background: linear-gradient(#6c8efb 0%, #fef8ff 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+h1 {
+
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: darkviolet;
+
+}
+
+#name {
+    font-size: 50px;
+    font-family: cursive;
+
+}
+
+
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+    color: rgb(48, 26, 171);
+}
+
+#bio {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 50px;
+}
+
+#pbio{
+    color: rgb(86, 86, 86);
+    text-align: center;
+    font-family: fantasy;
+    line-height: 40px;
+    font-size: large;
+}
+
+.line {
+    height: 6px;
+    background-color:rgb(29, 15, 123);
+    width: 70px;
+    margin: 8px auto;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#menu{
+    
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 5px;
+    z-index: 10;
+    cursor: pointer;
+    background-color: rgba(76, 193, 251, 0.7);
+    border-radius: 10px;
+}
+
+.links{
+    float: left;
+    color: rgb(57, 56, 57);
+    padding: 15px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.links:hover{
+    background-color: deepskyblue;
+    border-radius: 10px;
+}

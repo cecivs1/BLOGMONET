@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Blog de Monet</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+
+    <body>
+
+        <ul id="menu">
+            <li class="links"> <a href="#welcome">Inicio</a> </li>
+            <li class="links"> <a href="#bio">Biografía</a> </li>
+            <li class="links"> <a href="#videos"> Videos</a> </li>
+            <li class="links"> <a href="#obras">Obras</a> </li>
+            <li class="links"> Contacto </li>
+        </ul>
+
+        <section id="welcome">
+            <div>
+                <br>
+                <img class="profile" src="monet.jpg">
+                <h2 style="font-size: 20px;"> Bienvenido al blog de mi artista favorito </h2>
+                <h2 id="monet"> Claude Monet </h2>
+            </div>
+        </section>
+
+        <section id="bio">
+            <h2> Hola, soy Cloude Monet</h2>
+            <div class="line"></div>
+            <p id="pbio"> Soy líder del movimiento de arte impresionista, mis cuadros son reconocidos como los más 
+                puros ejemplos de este estilo. En la actualidad, una de mis pinturas más caras es el óleo 
+                "Le Bassin Aux Nympheas", vendido el año 2008 en Londres por 40,9 millones de libras esterlinas.
+                Yo senté las bases de la pintura moderna, mi pincel no buscaba comunicar una historia ni dar 
+                una instrucción moral al espectador, sino que ponía en el lienzo impresiones en función de 
+                las sensaciones experimentadas por el ojo. 
+                Las pinceladas puntillistas, que pinté en mis cuadros con propiedad de maestro, son el origen 
+                de el arte pictórico moderno. </p>
+        </section>
+
+        <section id="videos">
+            <h2> Video </h2>
+            <div class="line"></div>
+            <iframe width="990" height="557" src="https://www.youtube.com/embed/L1JCO-vPtIw" title="Monet, el impresionista" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section id="obras">
+            <h2> Mis pinturas más famosas </h2>
+            <div class="line"></div>
+            <div>
+                <img id="image1" onmouseleave="changeImageLeave1();" onmouseover="changeImageOver1();" style="width: 400px; height: 400px;" src="https://niood.es/wp-content/uploads/2021/10/water-lilies-claude-monet-niood-900x652.jpeg">
+                <img id="image2" onmouseleave="changeImageLeave2();" onmouseover="changeImageOver2();" style="width: 400px; height: 400px;" src="https://mymodernmet.com/wp/wp-content/uploads/2017/06/monet-paintings-the-japanese-bridge-1899.jpg">
+                <img id="image3" onmouseleave="changeImageLeave3();" onmouseover="changeImageOver3();" style="width: 400px; height: 400px;" src="https://artepedrodacruz.files.wordpress.com/2010/05/campos-en-primavera-1887.jpg">
+            </div>
+        </section>
+
+        <section id="info">
+            <h2> Más info </h2>
+            <div class="line"></div>
+            <a href="https://historia-arte.com/artistas/claude-monet" target="_blank"> DA CLICK PARA MAS INFO </a>
+        </section>
+
+        <section id="contacto">
+            <h2> Museo de Monet </h2>
+            <div class="line"></div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167981.29576661013!2d2.073645551300412!3d48.86378311707463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2eeaaaaaa3%3A0xdc3fd08aa701960a!2sMuseo%20de%20la%20Orangerie!5e0!3m2!1ses-419!2smx!4v1660079649461!5m2!1ses-419!2smx" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
+
+
+    </body>
+</html>
